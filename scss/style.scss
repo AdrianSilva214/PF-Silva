@@ -1,0 +1,83 @@
+// Boostrap
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+// Utilities
+
+@import "../scss/utilities/variables";
+@import "../scss/utilities/tipografia";
+
+// Views
+
+@import "../scss/views/servicios";
+@import "../scss/views/nosotros";
+@import "../scss/views/presupuestos";
+@import "../scss/views/contactanos";
+
+
+/* Encabezado */
+
+.container-fluid {
+    // text-align: center;
+
+    /* Título */
+
+    .col {
+        text-align: center;
+        background: #364552;
+        color: $light;
+        margin: 0;
+        // padding: 0;
+        // font-size: 40rem;
+        //height: auto;
+    }
+
+    .display-1 {
+        font-size: auto;
+    }
+
+      /* Logo */
+
+    .text-center-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // background: #364552;
+        padding: 5px;
+    }
+    
+    /* Menú principal */
+
+    .align-items-center {
+        font-size: 30px;
+        // height: 10rem;
+    }
+
+    .btn-light {
+        background-color: $light;
+        text-align: center;
+        margin: auto;
+        width: 12rem;
+        border-radius: 1.5rem 0 1.5rem 0;
+        border-style: double;
+        border-width: 0.5rem;
+    }
+
+   /* Imagen de fondo del menú principal */
+
+    .align-items-center {
+        font-size: 30px;
+        height: 20rem;
+        background-image: url(../img/img_03.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+}
+
+.logo-favicon {
+    width: 30px;
+    height: 15px;
+}

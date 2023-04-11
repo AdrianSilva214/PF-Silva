@@ -1,0 +1,38 @@
+/////* Página: Servicios */////
+
+/* Encabezado */
+
+.row {
+    // height: 10rem;
+    text-align: left;
+    background-size: auto;
+    font-family: "iceland";
+
+    .sub-servicios {
+        padding: 1rem 6rem 1rem 5rem;
+        font-size: 5rem;
+        background-image: url(../../img/img_04.jpg);
+        
+    }
+
+    .align-items-center-servicios {
+        font-family: "iceland";
+        border: 2px solid #000;
+        border-radius: 2rem 0 2rem 0;
+        background-color: #fff;
+        color:#000;
+        align-items: center;
+        margin: 0 0 10px 10px;
+    }
+
+    .descripcion {
+        color: white;
+        background-image: url(../img/img_08.jpg);
+        border-radius: 2rem 0 0 2rem;
+        margin: 0 0 2rem 0;
+    }
+}
+
+.col-md-12 {
+    background-color: #364552;
+}
